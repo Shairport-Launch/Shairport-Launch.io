@@ -1,0 +1,104 @@
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/ubuntu/v20/4iCs6KVjbNBYlgoKfw7z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  src: url(https://fonts.gstatic.com/s/opensans/v34/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4gaVc.ttf) format('truetype');
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  min-width: 224px;
+  font-family: 'Open Sans';
+}
+#container {
+  height: 100%;
+}
+#left {
+  color: white;
+  background-image: radial-gradient(#001780, #0dc4e9);
+  background-color: #001780;
+  margin: 0px;
+  text-align: center;
+  width: 100%;
+  padding-top: 15px;
+}
+#blurb {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+h1,
+h2 {
+  font-family: "Ubuntu";
+  margin-top: 0px;
+}
+#right {
+  color: #001780;
+  padding-top: 5%;
+  width: 100%;
+  height: 100%;
+}
+#body {
+  margin: 0 auto;
+  width: 80%;
+  min-height: 100%;
+}
+#body form {
+  margin-top: 20px;
+  width: 100%;
+}
+#submit {
+  margin-top: 10px;
+  background-color: #001780;
+  border-color: #001780;
+  color: white;
+  margin-bottom: 70px;
+}
+#submit:hover {
+  background-color: #001780;
+  color: white;
+}
+#email {
+  max-width: 400px;
+}
+#feedback {
+  max-width: 110%;
+  min-width: 50%;
+  min-height: 105px;
+}
+#feedback-limit {
+  margin-left: 10px;
+}
+#footer {
+  position: relative;
+  text-align: center;
+  margin-bottom: 10px;
+  height: 20px;
+  width: 100%;
+  margin-top: -30px;
+}
+
+@media (min-width: 48em) {
+  #left {
+    position: fixed;
+    padding-top: 100px;
+    width: 30%;
+    float: left;
+    min-height: 100%;
+  }
+  #right {
+    min-height: 100%;
+    width: 70%;
+    float: right;
+  }
+}
